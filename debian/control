@@ -2,12 +2,13 @@ Source: turnkey-pylib
 Section: python
 Priority: optional
 Maintainer: Alon Swartz <alon@turnkeylinux.org>
-Build-Depends: debhelper (>> 4.2.0), python (>= 2.4)
-Standards-Version: 3.6.1
+Build-Depends: debhelper (>> 4.2.0)
+Build-Depends-Indep: python-all, python-support (>= 0.4)
+Standards-Version: 3.9.3
 
 Package: turnkey-pylib
-Architecture: any
-Depends: python (>= 2.4)
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
 Suggests: python-profiler
 Description: TurnKey Linux standard Python library
 

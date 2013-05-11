@@ -1,0 +1,23 @@
+turnkey-pylib (0.3-0avamagic2) precise; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format
+
+ -- Ron Huang <ronhuang@gmail.com>  Tue, 14 May 2013 15:13:23 +0800
+
+turnkey-pylib (0.3) precise; urgency=low
+
+  * new: multiprocessing_utils, threadloop, stdtrap, paths, popen4, command, fifobuffer
+
+ -- Liraz Siri <liraz@turnkeylinux.org>  Wed, 13 Jul 2011 17:46:19 +0300
+
+turnkey-pylib (0.2) precise; urgency=low
+
+  * new: lazyclass, netinfo, sysversion, pidlock
+
+ -- Liraz Siri <liraz@turnkeylinux.org>  Fri, 8 Oct 2010 05:09:35 +0200
+
+turnkey-pylib (0.1) precise; urgency=low
+
+  * new: conffile, executil
+
+ -- Liraz Siri <liraz@turnkeylinux.org>  Thu, 8 Apr 2010 12:47:04 +0300
